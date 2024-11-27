@@ -20,6 +20,6 @@ admin.site.site_header = "Eangle Insight Admin"
 admin.site.site_title = "Eangle Insight Admin Portal"
 admin.site.index_title = "Welcome to Eagle Insight Portal"
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('', admin.site.urls),
     path('',include('home.urls'))
 ]

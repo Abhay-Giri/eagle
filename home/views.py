@@ -11,6 +11,10 @@ def index(request):
     return render(request, 'index.html', context)
     # return HttpResponse('this is homepage')
 
+def home(request):
+    return render(request, 'login.html')
+    #return HttpResponse('this is about page')
+
 def about(request):
     return render(request, 'about.html')
     #return HttpResponse('this is about page')
